@@ -1,4 +1,4 @@
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import ColorDisplay from './Components/Color Display/ColorDisplay';
 import Home from './Components/Home/Home';
