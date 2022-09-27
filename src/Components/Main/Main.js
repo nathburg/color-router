@@ -2,13 +2,13 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../Header/Header';
 import NotFound from '../NotFound/NotFound';
-import './ColorDisplay.css';
+import './Main.css';
 
 function inRange(number) {
   return 0 <= number && number < 256;
 }  
 
-export default function ColorDisplay() {
+export default function Main() {
   const { r, g, b } = useParams();
 
   if (inRange(r) && inRange(g) && inRange(b)) {

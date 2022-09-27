@@ -1,14 +1,13 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import ColorDisplay from './Components/Color Display/ColorDisplay';
+import Main from './Components/Main/Main';
 import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App"> 
       <Switch>
-        <Route path='/rgb/:r/:g/:b' component={ColorDisplay} />
+        <Route path='/rgb/:r/:g/:b' component={Main} />
         <Route path='/' component={Home} />
       </Switch>
     </div>
