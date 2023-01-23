@@ -1,0 +1,12 @@
+.header {
+  background-color: aquamarine;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: space-around;
+  display: flex;
+}
+
+a {
+  text-decoration: inherit;
+  color: white;
+}
